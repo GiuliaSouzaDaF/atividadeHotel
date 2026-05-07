@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+<h2>Hotel</h2>
+
+<nav>
+<a href="../index.html">Página Inicial</a>
+<a href="hospede.html">Hóspedes</a>
+<a href="quarto.html">Quartos</a>
+<a href="reserva.html">Reservas</a>
+</nav>
+</div>
+
+<div class="content">
+
+<h1 class="page-title">Hóspedes</h1>
+
+<div class="card">
+
+<form id="formHospede">
+
+<input type="text" name="nome" placeholder="Nome">
+<input type="text" name="cpf" placeholder="CPF">
+<input type="text" name="telefone" placeholder="Telefone">
+<input type="email" name="email" placeholder="Email">
+
+<button>Cadastrar</button>
+
+</form>
+
+</div>
+
+<div class="card">
+
+<table>
+
+<thead>
+<tr>
+<th>ID</th>
+<th>Nome</th>
+<th>Email</th>
+</tr>
+</thead>
+
+<tbody id="tabelaHospedes"></tbody>
+
+</table>
+
+</div>
+
+</div>
+<script type="module" src="../js/hospede.js"></script>
+
+</body>
+</html>
